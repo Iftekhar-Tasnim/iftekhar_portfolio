@@ -1,42 +1,50 @@
 export const projects = [
     {
         id: 1,
-        title: "Event Ticketing SaaS Backend",
-        description: "A scalable backend for an event ticketing SaaS platform. Built with TypeScript, it handles user authentication, event management, and ticket booking.",
-        technologies: ["TypeScript", "Node.js", "Backend"],
-        link: "https://github.com/Iftekhar-Tasnim/Event-Ticketing-SaaS-Backend",
-        github: "https://github.com/Iftekhar-Tasnim/Event-Ticketing-SaaS-Backend"
+        title: "Event Ticketing SaaS",
+        description: "A comprehensive full-stack event ticketing platform. Features user authentication, event management, and secure ticket booking. Built with a modern tech stack for scalability.",
+        technologies: ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Prisma", "Tailwind CSS"],
+        link: "https://github.com/Iftekhar-Tasnim/Event-Ticketing-SaaS-Frontend",
+        github: "https://github.com/Iftekhar-Tasnim/Event-Ticketing-SaaS-Frontend"
     },
     {
         id: 2,
-        title: "NASA Space App Challenge 2024",
-        description: "Participated in a global competition, enhancing skills in problem-solving and innovation. Collaborated with a team to develop a solution for a space-related challenge.",
-        technologies: ["Problem Solving", "Innovation", "Teamwork"],
-        link: "#",
-        github: "#"
+        title: "Astronyvia",
+        description: "An interactive web application for astronomy enthusiasts. Features dynamic content and a responsive design to explore the cosmos.",
+        technologies: ["React", "TypeScript", "CSS", "Vite"],
+        link: "https://astronyvia-front.vercel.app",
+        github: "https://github.com/Iftekhar-Tasnim/astronyvia"
     },
     {
         id: 3,
-        title: "Portfolio Website",
-        description: "A personal portfolio website built with React and Vite to showcase my projects and skills. Features a modern dark mode design with glassmorphism effects.",
-        technologies: ["React", "Vite", "CSS"],
-        link: "#",
-        github: "https://github.com/Iftekhar-Tasnim"
+        title: "Vehicle Rental API",
+        description: "A robust RESTful API for a vehicle rental system. Handles vehicle inventory, booking management, and customer data.",
+        technologies: ["C#", ".NET Core", "SQL Server", "Entity Framework"],
+        link: "https://github.com/Iftekhar-Tasnim/VehicleRentalAPI-Dot-Net-Project-",
+        github: "https://github.com/Iftekhar-Tasnim/VehicleRentalAPI-Dot-Net-Project-"
     },
     {
         id: 4,
+        title: "Informal Bot",
+        description: "A custom Discord bot designed for server automation and community engagement. Features various commands for utility and fun.",
+        technologies: ["JavaScript", "Discord.js", "Node.js"],
+        link: "https://github.com/Iftekhar-Tasnim/informalBot_Discord",
+        github: "https://github.com/Iftekhar-Tasnim/informalBot_Discord"
+    },
+    {
+        id: 5,
+        title: "Frequency Lab",
+        description: "A web platform for Frequency Lab, showcasing innovation and STEM education initiatives. Built with a focus on performance and user experience.",
+        technologies: ["Python", "HTML", "JavaScript", "CSS"],
+        link: "https://github.com/Iftekhar-Tasnim/flab_latest",
+        github: "https://github.com/Iftekhar-Tasnim/flab_latest"
+    },
+    {
+        id: 6,
         title: "Recipe Site",
         description: "A demo recipe website showcasing HTML and CSS skills. Features a clean layout for displaying cooking recipes.",
         technologies: ["HTML", "CSS", "Frontend"],
         link: "https://github.com/Iftekhar-Tasnim/Recipe-site",
         github: "https://github.com/Iftekhar-Tasnim/Recipe-site"
-    },
-    {
-        id: 5,
-        title: "Course Piracy Index",
-        description: "A project tracking course piracy. Forked and contributed to the open-source community.",
-        technologies: ["Open Source", "Community"],
-        link: "https://github.com/Iftekhar-Tasnim/Course-Piracy-Index",
-        github: "https://github.com/Iftekhar-Tasnim/Course-Piracy-Index"
     }
 ];

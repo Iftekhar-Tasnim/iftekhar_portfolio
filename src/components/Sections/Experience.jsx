@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-24 px-6 md:px-20 max-w-[1000px] mx-auto">
       <div className="flex items-center gap-4 mb-12">
-        <span className="text-accent font-mono text-xl">02.</span>
+        <span className="text-accent font-mono text-xl">04.</span>
         <h2 className="text-3xl font-bold text-text-main">Where I've Worked</h2>
         <div className="h-[1px] bg-white/20 flex-grow max-w-[300px]"></div>
       </div>

@@ -13,26 +13,15 @@ const About = () => {
       <div className="grid md:grid-cols-[3fr_2fr] gap-12">
         <div className="text-text-muted text-lg leading-relaxed space-y-4">
           <p>
-            Hello! I'm <span className="text-accent">Iftekhar Tasnim Md. Asif</span>, a Full Stack Developer driven by the art of building scalable, user-centric web applications. 
-            I am currently wrapping up my <span className="text-accent">B.Sc. in Computer Science & Engineering</span> (Jan 2025), with a specialized focus on 
-            <span className="text-accent"> Software Engineering</span> and <span className="text-accent">Machine Learning</span>.
+            I’m a <span className="text-accent">Full Stack Developer</span> passionate about building scalable, user-centric web applications. 
+            I specialize in the <span className="text-accent">MERN Stack</span> (MongoDB, Express.js, React, Node.js), blending efficient backend logic with modern frontend design to create seamless digital experiences.
           </p>
           <p>
-            My expertise lies in the <span className="text-accent">MERN Stack</span> (MongoDB, Express.js, React, Node.js), where I blend robust backend logic with dynamic frontend experiences. 
-            I love solving complex problems and crafting digital solutions that make an impact.
+            Currently completing my <span className="text-accent">B.Sc. in Computer Science & Engineering</span> (Jan 2025) with a focus on 
+            <span className="text-accent"> Software Engineering</span> and <span className="text-accent">Machine Learning</span>, 
+            I am actively seeking <span className="text-accent">internship opportunities</span> where I can contribute to innovative teams and solve real-world problems.
           </p>
-          <p>
-            I am currently looking for <span className="text-accent">internship opportunities</span> in Frontend, Backend, or Full Stack development. 
-            I'm eager to bring my skills to a professional team, tackle new challenges, and contribute to innovative projects.
-          </p>
-          <p>Here are a few technologies I've been working with recently:</p>
-          <ul className="grid grid-cols-2 gap-2 mt-4 font-mono text-sm">
-            {profile.skills.flatMap(cat => cat.items).slice(0, 6).map((skill, i) => (
-              <li key={i} className="flex items-center gap-2">
-                <span className="text-accent">▹</span> {skill.name}
-              </li>
-            ))}
-          </ul>
+
         </div>
 
         <div className="relative group max-w-[250px] mx-auto md:mx-0 h-fit">
