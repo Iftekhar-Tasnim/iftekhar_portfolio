@@ -1,3 +1,5 @@
+import asifImg from '../assets/asif.png';
+
 export const profile = {
     name: "Iftekhar Tasnim Md. Asif",
     role: "Software Engineer & Full Stack Developer",
@@ -122,7 +124,7 @@ export const profile = {
             ]
         }
     ],
-    img: "/src/assets/asif.png",
+    img: asifImg,
     summary: {
         total_categories: 7,
         total_skills: 44,
