@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <NavLink to="/" className="navbar-logo">
-          MyPortfolio
+          Iftekhar
         </NavLink>
         <ul className="navbar-menu">
           <li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>

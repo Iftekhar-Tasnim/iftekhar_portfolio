@@ -20,12 +20,58 @@ export const profile = {
         }
     ],
     skills: [
-        "C++", "Python", "Java", "C#", "JavaScript",
-        "HTML", "CSS", "Tailwind CSS",
-        "Oracle 19c", "SQLite", "MySQL",
-        "OpenCV", "YOLO", "Darknet",
-        "Git", "GitHub", "Visual Studio Code", "IntelliJ IDEA",
-        "Figma", "Adobe XD",
-        "Windows", "Linux"
-    ]
+        {
+            category: "Web Development",
+            items: [
+                { name: "HTML", level: "Expert" },
+                { name: "CSS", level: "Expert" },
+                { name: "JavaScript", level: "Expert" },
+                { name: "React", level: "Expert" },
+                { name: "Next.js", level: "Advanced" },
+                { name: "Tailwind CSS", level: "Expert" }
+            ]
+        },
+        {
+            category: "Backend & Systems",
+            items: [
+                { name: "Node.js", level: "Advanced" },
+                { name: "NestJS", level: "Intermediate" },
+                { name: "PHP", level: "Advanced" },
+                { name: "MySQL", level: "Advanced" },
+                { name: "PostgreSQL", level: "Intermediate" }
+            ]
+        },
+        {
+            category: "AI & Automation",
+            items: [
+                { name: "Python", level: "Advanced" },
+                { name: "TensorFlow", level: "Intermediate" },
+                { name: "OpenCV", level: "Intermediate" }
+            ]
+        },
+        {
+            category: "Embedded & IoT",
+            items: [
+                { name: "ESP32", level: "Advanced" },
+                { name: "Arduino", level: "Advanced" },
+                { name: "C++", level: "Advanced" }
+            ]
+        },
+        {
+            category: "Tools & Workflow",
+            items: [
+                { name: "Git", level: "Expert" },
+                { name: "VS Code", level: "Expert" },
+                { name: "Docker", level: "Intermediate" },
+                { name: "Figma", level: "Advanced" }
+            ]
+        }
+    ],
+    img: "/src/assets/asif.png",
+    summary: {
+        total_categories: 5,
+        total_skills: 21,
+        advanced_expert: 16,
+        intermediate: 5
+    }
 };
