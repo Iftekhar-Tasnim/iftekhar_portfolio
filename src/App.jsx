@@ -1,33 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Experience from './pages/Experience';
-import CV from './components/CV';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import './App.css';
+import Navbar from './components/Layout/Navbar';
+import Footer from './components/Layout/Footer';
+import Hero from './components/Sections/Hero';
+import About from './components/Sections/About';
+import Experience from './components/Sections/Experience';
+import Projects from './components/Sections/Projects';
+import Contact from './components/Sections/Contact';
 
 function App() {
   return (
-    <Router>
-      <div className="app">
-        <Navbar />
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Hero />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/cv" element={<CV />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <div className="bg-bg-dark min-h-screen">
+      <Navbar />
+      <main className="container mx-auto">
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 export const profile = {
     name: "Iftekhar Tasnim Md. Asif",
     role: "Computer Science Student & Software Developer",
-    bio: "As a current student pursuing a Bachelor’s in Computer Science and Engineering, I aim to build a career as a web and software developer. With a strong passion for technology, I am eager to enhance my skills in software development, web design, and machine learning, with the goal of contributing to innovative projects and solutions.",
+    bio: "A Full Stack Developer crafting scalable, user-focused web applications with the MERN stack. Passionate about building solutions that make an impact.",
     email: "iftekhartasnim@gmail.com",
     linkedin: "https://www.linkedin.com/in/iftekhartasnim/",
     github: "https://github.com/Iftekhar-Tasnim",
@@ -11,7 +11,7 @@ export const profile = {
         {
             degree: "B.Sc. in Computer Science and Engineering",
             institution: "American International University Bangladesh (AIUB)",
-            period: "2022 - April 2026"
+            period: "2022 - Jan 2025"
         },
         {
             degree: "Higher Secondary Certificate",

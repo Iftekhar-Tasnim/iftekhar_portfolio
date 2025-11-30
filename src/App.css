@@ -1,6 +1,0 @@
-.main-content {
-    padding-top: 80px;
-    /* Height of navbar */
-    min-height: calc(100vh - 160px);
-    /* Viewport height minus navbar and footer estimate */
-}
