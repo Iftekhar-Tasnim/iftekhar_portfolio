@@ -130,5 +130,16 @@ export const profile = {
         total_skills: 44,
         advanced_expert: 31,
         intermediate: 13
-    }
+    },
+    philosophy: {
+        title: "My Philosophy",
+        description: "I believe that great code is fueled by great coffee. I'm always seeking new challenges and opportunities to learn and grow.",
+        quote: "Life is too short for bad coffee."
+    },
+    hobbies: [
+        { name: "Cycling", icon: "bike", description: "Exploring the city on two wheels." },
+        { name: "Football", icon: "football", description: "Teamwork and strategy on the field." },
+        { name: "Competitive Gaming", icon: "gamepad", description: "Sharpening reflexes and tactical thinking." },
+        { name: "Watching Anime", icon: "tv", description: "Appreciating storytelling and art." }
+    ]
 };

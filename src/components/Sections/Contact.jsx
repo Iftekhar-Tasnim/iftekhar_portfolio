@@ -24,6 +24,7 @@ const Contact = () => {
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-accent/5 rounded-full blur-[100px] -z-10"></div>
 
+
       <div className="glass rounded-2xl p-8 md:p-12 border border-white/5 relative overflow-hidden">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           
