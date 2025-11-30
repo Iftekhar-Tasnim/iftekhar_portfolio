@@ -3,7 +3,8 @@ export const profile = {
     role: "Computer Science Student & Software Developer",
     bio: "As a current student pursuing a Bachelor’s in Computer Science and Engineering, I aim to build a career as a web and software developer. With a strong passion for technology, I am eager to enhance my skills in software development, web design, and machine learning, with the goal of contributing to innovative projects and solutions.",
     email: "iftekhartasnim@gmail.com",
-    linkedin: "https://linkedin.com/in/iftekhartasnim",
+    linkedin: "https://www.linkedin.com/in/iftekhartasnim/",
+    github: "https://github.com/Iftekhar-Tasnim",
     phone: "+88 01521 104415",
     location: "Obokash Vabon, West Vasantek, Dhaka-1206",
     education: [
