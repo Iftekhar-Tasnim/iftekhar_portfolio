@@ -1,29 +1,56 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Link } from 'react-scroll';
 
 const Navbar = ({ onOpenResume }) => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
+  // Throttled scroll handler for better performance
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener('scroll', handleScroll);
+    let ticking = false;
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setScrolled(window.scrollY > 50);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+    
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = [
+  // Memoize navLinks to prevent recreation on every render
+  const navLinks = useMemo(() => [
     { name: 'About', to: 'about' },
     { name: 'Skills', to: 'skills' },
     { name: 'Education', to: 'education' },
     { name: 'Experience', to: 'experience' },
     { name: 'Work', to: 'projects' },
     { name: 'Contact', to: 'contact' },
-  ];
+  ], []);
+
+  // Optimize mobile menu toggle
+  const handleToggleMenu = useCallback(() => {
+    setIsOpen(prev => !prev);
+  }, []);
+
+  const handleCloseMenu = useCallback(() => {
+    setIsOpen(false);
+  }, []);
+
+  // Optimize resume button click
+  const handleResumeClick = useCallback(() => {
+    setIsOpen(false);
+    onOpenResume();
+  }, [onOpenResume]);
 
   return (
     <>
-      <nav className={`fixed w-full z-50 transition-[padding] duration-300 ${scrolled ? 'py-4' : 'py-6'}`}>
-        <div className={`max-w-[1200px] mx-auto px-6 md:px-10 flex justify-between items-center transition-all duration-300 ${
+      <nav className={`fixed w-full z-50 transition-[padding] duration-200 ${scrolled ? 'py-4' : 'py-6'}`}>
+        <div className={`max-w-[1200px] mx-auto px-6 md:px-10 flex justify-between items-center transition-[background-color,border-color,border-radius,padding,box-shadow] duration-200 ${
           scrolled ? 'bg-[#0a192f]/85 backdrop-blur-md border border-white/10 rounded-full py-3 shadow-xl' : 'bg-transparent border-transparent rounded-none py-0'
         }`}>
           <Link to="hero" smooth={true} duration={500} className="text-accent font-mono font-bold text-xl cursor-pointer z-50">
@@ -34,10 +61,11 @@ const Navbar = ({ onOpenResume }) => {
           <div className="hidden md:flex gap-8 items-center">
             {navLinks.map((link, i) => (
               <Link
-                key={i}
+                key={link.to}
                 to={link.to}
                 smooth={true}
                 duration={500}
+                offset={-80}
                 className="text-sm font-mono text-text-main hover:text-accent cursor-pointer transition-colors"
               >
                 <span className="text-accent mr-1">0{i + 1}.</span>
@@ -60,7 +88,8 @@ const Navbar = ({ onOpenResume }) => {
           {/* Mobile Toggle */}
           <button 
             className="md:hidden z-50 flex flex-col gap-1.5 group"
-            onClick={() => setIsOpen(!isOpen)}
+            onClick={handleToggleMenu}
+            aria-label="Toggle menu"
           >
             <span className={`w-6 h-0.5 bg-accent transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
             <span className={`w-6 h-0.5 bg-accent transition-all duration-300 ${isOpen ? 'opacity-0' : ''}`}></span>
@@ -70,15 +99,16 @@ const Navbar = ({ onOpenResume }) => {
       </nav>
 
       {/* Mobile Menu */}
-      <div className={`fixed inset-0 bg-[#0a192f]/95 backdrop-blur-xl z-40 flex justify-center items-center transition-opacity duration-300 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`fixed inset-0 bg-[#0a192f]/95 backdrop-blur-md z-40 flex justify-center items-center transition-opacity duration-200 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
         <div className="flex flex-col gap-8 text-center">
           {navLinks.map((link, i) => (
             <Link
-              key={i}
+              key={link.to}
               to={link.to}
               smooth={true}
               duration={500}
-              onClick={() => setIsOpen(false)}
+              offset={-80}
+              onClick={handleCloseMenu}
               className="text-2xl font-mono text-text-main hover:text-accent cursor-pointer transition-colors"
             >
               <span className="text-accent block text-sm mb-2">0{i + 1}.</span>
@@ -86,7 +116,7 @@ const Navbar = ({ onOpenResume }) => {
             </Link>
           ))}
           <button 
-            onClick={onOpenResume}
+            onClick={handleResumeClick}
             className="px-6 py-2 border border-accent text-accent font-mono text-sm rounded hover:bg-accent/10 hover:shadow-[0_0_15px_rgba(100,255,218,0.3)] hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2 group cursor-pointer"
           >
             <span>Resume</span>

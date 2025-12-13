@@ -2,8 +2,8 @@ import asifImg from '../assets/asif.png';
 
 export const profile = {
     name: "Iftekhar Tasnim Md. Asif",
-    role: "Software Engineer & Full Stack Developer",
-    bio: "A Full Stack Developer crafting scalable, user-focused web applications with the MERN stack. Passionate about building solutions that make an impact.",
+    role: "Software Engineer & Web Developer",
+    bio: "A Software Engineer crafting scalable, user-focused web applications with modern technologies. Passionate about building solutions that make an impact.",
     email: "iftekhartasnim@gmail.com",
     linkedin: "https://www.linkedin.com/in/iftekhartasnim/",
     github: "https://github.com/Iftekhar-Tasnim",
