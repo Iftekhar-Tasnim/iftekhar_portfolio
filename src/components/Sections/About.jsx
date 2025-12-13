@@ -7,13 +7,13 @@ const About = () => {
       <div className="flex items-center gap-4 mb-12">
         <span className="text-accent font-mono text-xl">01.</span>
         <h2 className="text-3xl font-bold text-text-main">About Me</h2>
-        <div className="h-[1px] bg-white/20 flex-grow max-w-[300px]"></div>
+        <div className="h-px bg-white/20 grow max-w-[300px]"></div>
       </div>
 
       <div className="grid md:grid-cols-[3fr_2fr] gap-12">
         <div className="text-text-muted text-lg leading-relaxed space-y-4">
           <p>
-            I’m a <span className="text-accent">Full Stack Developer</span> passionate about building scalable, user-centric web applications. 
+            I'm a <span className="text-accent">Software Engineer</span> passionate about building scalable, user-centric web applications. 
             I specialize in the <span className="text-accent">MERN Stack</span> (MongoDB, Express.js, React, Node.js), blending efficient backend logic with modern frontend design to create seamless digital experiences.
           </p>
           <p>
