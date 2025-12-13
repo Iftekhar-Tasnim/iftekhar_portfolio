@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { profile } from '../../data/profile';
 
-const Hero = () => {
+const Hero = ({ onOpenResume }) => {
   return (
     <section id="hero" className="min-h-screen flex flex-col justify-center px-6 md:px-20 max-w-[1200px] mx-auto pt-20">
       <span className="font-mono text-accent mb-5 block animate-fade-in-up" style={{ animationDelay: '100ms' }}>
@@ -26,10 +26,17 @@ const Hero = () => {
           to="projects" 
           smooth={true} 
           duration={500} 
-          className="inline-block px-8 py-4 border border-accent text-accent font-mono rounded hover:bg-accent/10 transition-all cursor-pointer"
+          className="inline-block px-8 py-4 bg-accent/10 border border-accent text-accent font-mono rounded hover:bg-accent/20 hover:shadow-[0_0_20px_rgba(100,255,218,0.3)] transition-all cursor-pointer"
         >
           Check out my work!
         </Link>
+        
+        <button 
+          onClick={onOpenResume}
+          className="inline-block px-8 py-4 border border-text-muted text-text-muted font-mono rounded hover:border-accent hover:text-accent hover:shadow-[0_0_15px_rgba(100,255,218,0.2)] transition-all cursor-pointer"
+        >
+          Get Resume
+        </button>
 
         <div className="flex items-center gap-6">
           <a href={profile.github} target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-accent transition-colors transform hover:scale-110">

@@ -18,12 +18,6 @@ export const profile = {
             period: "2022 - Jan 2025"
         },
         {
-            degree: "B.Sc. (Honours) in Microbiology",
-            institution: "University of Dhaka",
-            period: "2018 - 2022 (Incomplete)",
-            description: "Discontinued due to COVID-19 lockdown (Feb 2020 - Mar 2022)."
-        },
-        {
             degree: "Higher Secondary Certificate",
             institution: "Adamjee Cantonment College",
             period: "2015 - 2017"

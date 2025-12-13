@@ -1,0 +1,169 @@
+## Technical Skills – Portfolio vs CV (Tightened Naming Guide)
+
+This document defines **two optimized versions of your skills**:
+
+1. **Portfolio version** – slightly descriptive, human-readable
+2. **CV version** – compact, ATS-optimized, recruiter-scan friendly
+
+Use this to keep your portfolio expressive while making your CV sharp and concise.
+
+---
+
+## VERSION A: PORTFOLIO SKILLS (DISPLAY VERSION)
+
+Use this on your website.
+
+### Programming Languages
+
+C++
+Java
+Python
+C#
+JavaScript (ES6+)
+TypeScript
+
+---
+
+### Frontend Engineering
+
+React
+Next.js
+Vite
+Tailwind CSS
+Bootstrap
+Material UI
+shadcn/ui
+HTML5
+CSS3
+
+---
+
+### Backend & System Architecture
+
+Node.js
+Express.js
+NestJS
+ASP.NET Core
+MVC Architecture
+Firebase
+MongoDB
+MySQL
+PostgreSQL
+
+---
+
+### Mobile & Desktop Development
+
+React Native (Expo – fundamentals)
+Java Swing (JFrame)
+
+---
+
+### AI, Computer Vision & Data
+
+YOLO (v8 / v10)
+U-Net
+TensorFlow
+OpenCV
+Pandas
+NumPy
+
+---
+
+### IoT & Embedded Systems
+
+Arduino
+ESP32
+Raspberry Pi
+Sensors & Actuators
+Circuit Design
+I2C / SPI / UART
+
+---
+
+### DevOps & Developer Tools
+
+Git
+Docker
+Linux
+Postman
+Figma
+
+---
+
+## VERSION B: CV SKILLS (TIGHT / ATS-OPTIMIZED)
+
+Use this version **only in your CV / resume**.
+
+### Languages
+
+C++, Java, Python, C#, JavaScript (ES6+), TypeScript
+
+---
+
+### Frontend
+
+React, Next.js, HTML5, CSS3, Tailwind CSS, Bootstrap, Material UI, shadcn/ui, Vite
+
+---
+
+### Backend
+
+Node.js, Express.js, NestJS, ASP.NET Core, MVC Architecture
+
+---
+
+### Databases & Backend Services
+
+MongoDB, MySQL, PostgreSQL, Firebase
+
+---
+
+### Mobile & Desktop
+
+React Native (Expo), Java Swing
+
+---
+
+### AI / Computer Vision
+
+YOLO (v8/v10), U-Net, TensorFlow, OpenCV
+
+---
+
+### Data Libraries
+
+Pandas, NumPy
+
+---
+
+### IoT & Embedded
+
+Arduino, ESP32, Raspberry Pi, Sensors, Circuit Design, I2C/SPI/UART
+
+---
+
+### Tools
+
+Git, Docker, Linux, Postman, Figma
+
+---
+
+## WHY THIS SPLIT WORKS
+
+* Portfolio version tells a **story** and shows clarity
+* CV version is **dense, keyword-rich, and ATS-friendly**
+* Same skills, different presentation
+* No exaggeration, no dilution
+
+---
+
+## INSTRUCTION FOR CURSOR
+
+* Keep **Version A** on the portfolio site
+* Use **Version B** for CV / resume only
+* Do not mix the two formats
+
+---
+
+End of skill-tightening guide
