@@ -1,0 +1,91 @@
+\documentclass[letterpaper,10pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+
+% Colors
+\definecolor{primary}{RGB}{100, 255, 218}
+\definecolor{textdark}{RGB}{10, 25, 47}
+\definecolor{textmuted}{RGB}{136, 146, 176}
+
+% Formatting
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}
+{\color{textdark}\fontsize{11pt}{13pt}\bfseries\uppercase}
+{}{0em}{}[\titlerule[0.5pt]]
+
+% Custom commands
+\newcommand{\resumeheader}[4]{
+    \begin{center}
+        {\fontsize{18pt}{20pt}\bfseries\color{textdark} #1}\\[2pt]
+        {\fontsize{10pt}{12pt}\color{textmuted} Software Engineer \& Web Developer}\\[4pt]
+        \faPhone\ #2 \quad
+        \faEnvelope\ \href{mailto:#3}{#3} \quad
+        \faLinkedin\ \href{https://www.linkedin.com/in/iftekhartasnim/}{linkedin.com/in/iftekhartasnim} \quad
+        \faGithub\ \href{https://github.com/Iftekhar-Tasnim}{github.com/Iftekhar-Tasnim} \quad
+        \faMapMarker\ #4
+    \end{center}
+    \vspace{2pt}
+}
+
+\begin{document}
+
+% Header
+\resumeheader{Iftekhar Tasnim Md. Asif}
+{+88 01521 104415}
+{iftekhartasnim@gmail.com}
+{Dhaka, Bangladesh}
+
+% Education
+\section{Education}
+\textbf{B.Sc. in Computer Science and Engineering} \hfill \textit{2022 -- Jan 2025}\\
+American International University Bangladesh (AIUB)\\[2pt]
+\textbf{Higher Secondary Certificate} \hfill \textit{2015 -- 2017}\\
+Adamjee Cantonment College
+
+% Experience
+\section{Experience}
+\textbf{STEM Facilitator} \hfill \textit{2024 -- Present}\\
+\textcolor{primary}{Frequency Lab} \hfill Dhaka, Bangladesh\\
+Delivering engaging STEM education and fostering innovation through hands-on projects and mentorship.\\[2pt]
+\textbf{STEM Facilitator} \hfill \textit{2023 -- 2024}\\
+\textcolor{primary}{The Tech Lab} \hfill Dhaka, Bangladesh\\
+Facilitated hands-on learning by teaching programming, robotics, and game development to students, fostering foundational STEM skills.
+
+% Projects
+\section{Projects}
+\textbf{Event Ticketing SaaS} \hfill \textit{Next.js, TypeScript, NestJS, PostgreSQL}\\
+Full-stack event ticketing platform with user authentication, event management, and secure ticket booking.\\[2pt]
+\textbf{Astronyvia} \hfill \textit{React, TypeScript, Vite}\\
+Interactive web application for astronomy enthusiasts with dynamic content and responsive design.\\[2pt]
+\textbf{Vehicle Rental API} \hfill \textit{C\#, .NET Core, SQL Server}\\
+RESTful API for vehicle rental system handling inventory, booking management, and customer data.\\[2pt]
+\textbf{Job Portal} \hfill \textit{PHP, MySQL, JavaScript}\\
+Full-stack job portal application connecting job seekers with employers, featuring job listings and application management.\\[2pt]
+\textbf{Bone CBAM Transformer} \hfill \textit{Python, PyTorch, Computer Vision}\\
+Deep learning project implementing CBAM with Transformer Neck for bone image analysis.
+
+% Technical Skills
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\textbf{Languages:} & C++, Java, Python, C\#, JavaScript (ES6+), TypeScript\\
+\textbf{Frontend:} & React, Next.js, HTML5, CSS3, Tailwind CSS, Bootstrap, Material UI, shadcn/ui, Vite\\
+\textbf{Backend:} & Node.js, Express.js, NestJS, ASP.NET Core, MVC Architecture\\
+\textbf{Databases:} & MongoDB, MySQL, PostgreSQL, Firebase\\
+\textbf{AI/CV:} & YOLO (v8/v10), U-Net, TensorFlow, OpenCV, Pandas, NumPy\\
+\textbf{IoT/Embedded:} & Arduino, ESP32, Raspberry Pi, Sensors, Circuit Design\\
+\textbf{Tools:} & Git, Docker, Linux, Postman, Figma
+\end{tabularx}
+
+\end{document}

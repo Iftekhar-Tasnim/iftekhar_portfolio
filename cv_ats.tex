@@ -1,0 +1,133 @@
+\documentclass[letterpaper,10pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+
+% Colors
+\definecolor{primary}{RGB}{100, 255, 218}
+\definecolor{textdark}{RGB}{10, 25, 47}
+\definecolor{textmuted}{RGB}{136, 146, 176}
+
+% Formatting
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\pagestyle{empty}
+\setlist[itemize]{leftmargin=*,topsep=2pt,itemsep=1pt}
+
+% Section formatting
+\titleformat{\section}
+{\color{textdark}\fontsize{11pt}{13pt}\bfseries\uppercase}
+{}{0em}{}[\titlerule[0.5pt]]
+
+% Hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    citecolor=primary
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\fontsize{22pt}{26pt}\bfseries\color{textdark} IFTEKHAR TASNIM MD. ASIF}\\[6pt]
+    \faPhone\ +88 01521 104415 \quad
+    \faEnvelope\ \href{mailto:iftekhartasnim@gmail.com}{iftekhartasnim@gmail.com} \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/iftekhartasnim/}{Linkedin} \quad
+    \faGithub\ \href{https://github.com/Iftekhar-Tasnim}{Github} \quad
+    \faUser\ \href{https://github.com/Iftekhar-Tasnim}{Profile} \quad
+    \faMapMarker\ Dhaka-1230, Bangladesh
+\end{center}
+\vspace{4pt}
+
+% Profile
+\section{Profile}
+Motivated Software Engineer \& Web Developer skilled in building modern, responsive web applications using TypeScript, JavaScript, React, Next.js, NestJS, and Node.js. Strong in clean architecture, API development, and performance optimization. Currently completing B.Sc. in Computer Science \& Engineering at AIUB, with additional expertise in AI/ML, IoT, and embedded systems that support creative problem-solving and scalable solution design.
+
+% Education
+\section{Education}
+\textbf{American International University-Bangladesh}\\
+Bachelor of Science in Computer Science \& Engineering \hfill \textit{2022 -- Jan 2025}\\
+Dhaka, Bangladesh\\[4pt]
+\textbf{Adamjee Cantonment College}\\
+Higher Secondary Certificate \hfill \textit{2015 -- 2017}\\
+Dhaka, Bangladesh
+
+% Skills
+\section{Skills}
+\begin{tabularx}{\textwidth}{@{}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{Languages:} JavaScript, TypeScript, Python, C++, Java, C\#, PHP\\
+\textbf{Front-end:} React, Next.js, Tailwind CSS, HTML5, CSS3, Bootstrap, Material UI, shadcn/ui, Vite\\
+\textbf{Back-end:} Node.js, Express.js, NestJS, ASP.NET Core, MVC Architecture\\
+\textbf{Communication} & \textbf{Databases:} PostgreSQL, MySQL, MongoDB, Firebase\\
+\textbf{Problem-Solving} & \textbf{AI/Computer Vision:} YOLO (v8/v10), U-Net, TensorFlow, OpenCV\\
+\textbf{Collaboration} & \textbf{IoT/Embedded:} Arduino, ESP32, Raspberry Pi, Sensors\\
+\textbf{Best Practices} & \textbf{Mobile:} React Native (Expo), Java Swing\\
+\textbf{Scalability} & \textbf{Version Control:} Git \& GitHub\\
+\textbf{Solutions} & \textbf{Tools:} Docker, Linux, Postman, Figma
+\end{tabularx}
+
+% Experience
+\section{Experience}
+\textbf{STEM Facilitator}\\
+\textcolor{primary}{Frequency Lab} - Dhaka, Bangladesh \hfill \textit{2024 -- Present}
+\begin{itemize}
+    \item Delivering engaging STEM education and fostering innovation through hands-on projects and mentorship.
+    \item Teaching programming, robotics, and technology concepts to students.
+\end{itemize}
+\textit{Tech: STEM Education, Robotics, Mentorship}\\[4pt]
+\textbf{STEM Facilitator}\\
+\textcolor{primary}{The Tech Lab} - Dhaka, Bangladesh \hfill \textit{2023 -- 2024}
+\begin{itemize}
+    \item Facilitated hands-on learning by teaching programming, robotics, and game development to students.
+    \item Fostered foundational STEM skills through interactive workshops and projects.
+\end{itemize}
+\textit{Tech: Programming, Robotics, Game Development}
+
+% Projects
+\section{Projects}
+\textbf{Event Ticketing SaaS - Full-Stack} \href{https://github.com/Iftekhar-Tasnim/Event-Ticketing-SaaS-Frontend}{\faExternalLink} \hfill \textit{2024 -- 2025}
+\begin{itemize}
+    \item Built a comprehensive full-stack event ticketing platform with user authentication, event management, and secure ticket booking.
+    \item Implemented scalable backend architecture with real-time updates and dashboard functionality.
+    \item Improved user experience with responsive UI and optimized performance.
+\end{itemize}
+\textit{Tech: Next.js, NestJS, PostgreSQL, Prisma, TypeScript, Tailwind CSS}\\[4pt]
+\textbf{Astronyvia - Interactive Web Application} \href{https://astronyvia-front.vercel.app}{\faExternalLink} \hfill \textit{2024}
+\begin{itemize}
+    \item Built an interactive web application for astronomy enthusiasts with dynamic content and responsive design.
+    \item Designed a clean, user-friendly interface for exploring the cosmos.
+    \item Improved content discovery and user engagement.
+\end{itemize}
+\textit{Tech: React, TypeScript, CSS, Vite}\\[4pt]
+\textbf{Vehicle Rental API - RESTful API} \href{https://github.com/Iftekhar-Tasnim/VehicleRentalAPI-Dot-Net-Project-}{\faExternalLink} \hfill \textit{2024}
+\begin{itemize}
+    \item Created a robust RESTful API for vehicle rental system handling inventory, booking management, and customer data.
+    \item Implemented efficient data models and business logic for rental operations.
+    \item Designed scalable architecture for handling multiple concurrent requests.
+\end{itemize}
+\textit{Tech: C\#, .NET Core, SQL Server, Entity Framework}\\[4pt]
+\textbf{Job Portal - Full-Stack} \href{https://github.com/Iftekhar-Tasnim/Job_Portal_webtech_project}{\faExternalLink} \hfill \textit{2024}
+\begin{itemize}
+    \item Built a full-stack job portal application connecting job seekers with employers.
+    \item Implemented job listings, application management, and user profile features.
+    \item Designed a responsive interface for web and mobile devices.
+\end{itemize}
+\textit{Tech: PHP, MySQL, HTML, CSS, JavaScript}\\[4pt]
+\textbf{Bone CBAM Transformer - Deep Learning} \href{https://github.com/Iftekhar-Tasnim/Bone_CBAM_-Transformer_Neck_integration}{\faExternalLink} \hfill \textit{2024}
+\begin{itemize}
+    \item Implemented CBAM (Convolutional Block Attention Module) with Transformer Neck for bone image analysis.
+    \item Developed advanced computer vision model for medical image processing.
+    \item Achieved improved accuracy in bone structure detection and analysis.
+\end{itemize}
+\textit{Tech: Python, PyTorch, Jupyter Notebook, Computer Vision}
+
+\end{document}

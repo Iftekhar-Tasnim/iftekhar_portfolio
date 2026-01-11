@@ -1,0 +1,259 @@
+IFTEKHAR TASNIM MD. ASIF
+Software Engineer & Web Developer
+
+Phone: +88 01521 104415
+Email: iftekhartasnim@gmail.com
+Location: Dhaka, Bangladesh
+LinkedIn: https://www.linkedin.com/in/iftekhartasnim/
+GitHub: https://github.com/Iftekhar-Tasnim
+X (Twitter): https://x.com/TasnimIftekhar
+Facebook: https://www.facebook.com/asif.spdf
+
+--------------------------------------------------
+PROFILE / SUMMARY
+--------------------------------------------------
+Motivated Software Engineer and Web Developer crafting scalable, user-focused web applications with modern technologies. Strong in clean architecture, API development, and performance optimization using JavaScript, TypeScript, React, Next.js, Node.js, NestJS, and related tooling. Currently completing a B.Sc. in Computer Science and Engineering with a focus on Software Engineering and Machine Learning at American International University Bangladesh (AIUB). Additional experience in AI and machine learning, computer vision, IoT, and embedded systems, enabling creative problem-solving and end-to-end solution design. Passionate about building solutions that make an impact and always seeking new challenges and opportunities to learn and grow.
+
+Personal philosophy: great code is fueled by great coffee; life is too short for bad coffee.
+
+--------------------------------------------------
+EDUCATION
+--------------------------------------------------
+Bachelor of Science in Computer Science and Engineering
+American International University Bangladesh (AIUB), Dhaka, Bangladesh
+Period: 2022 – Jan 2025
+
+Higher Secondary Certificate
+Adamjee Cantonment College, Dhaka, Bangladesh
+Period: 2015 – 2017
+
+--------------------------------------------------
+TECHNICAL SKILLS
+--------------------------------------------------
+Programming Languages:
+- C++
+- Java
+- Python
+- C#
+- JavaScript (ES6+)
+- TypeScript
+
+Frontend Engineering:
+- React
+- Next.js
+- Vite
+- Tailwind CSS
+- Bootstrap
+- Material UI
+- shadcn/ui
+- HTML5
+- CSS3
+- SASS
+
+Backend and System Architecture:
+- Node.js
+- Express.js
+- NestJS
+- ASP.NET Core
+- MVC architecture and MVC frameworks
+- Firebase
+
+Databases:
+- MongoDB
+- MySQL
+- PostgreSQL
+- SQL Server
+- Firebase (as backend/database platform)
+
+AI, Computer Vision and Data:
+- YOLO (v8 / v10)
+- U-Net
+- TensorFlow
+- OpenCV
+- Pandas
+- NumPy
+
+IoT and Embedded Systems:
+- Arduino
+- ESP32
+- Raspberry Pi
+- Sensors and actuators
+- Circuit design
+- I2C, SPI, UART communication
+
+Mobile and Desktop Development:
+- React Native (Expo)
+- Java Swing (JFrame)
+
+DevOps, Tools and Environment:
+- Git and GitHub
+- Docker
+- Linux
+- Postman
+- Figma
+
+--------------------------------------------------
+EXPERIENCE
+--------------------------------------------------
+STEM Facilitator
+Frequency Lab – Dhaka, Bangladesh
+Period: 2024 – Present
+- Deliver engaging STEM education and foster innovation through hands-on projects and mentorship.
+- Teach programming, robotics, and technology concepts to students.
+- Mentor students in practical problem-solving and experimentation.
+Technologies and domains: STEM education, robotics, mentorship, child education.
+Organization website: https://flabbd.com/
+
+STEM Facilitator
+The Tech Lab – Dhaka, Bangladesh
+Period: 2023 – 2024
+- Facilitate hands-on learning by teaching programming, robotics, and game development to students.
+- Foster foundational STEM skills through interactive workshops and projects.
+- Guide students in building small applications and games.
+Technologies and domains: programming, robotics, game development.
+
+--------------------------------------------------
+PROJECTS
+--------------------------------------------------
+Event Ticketing SaaS (Full-Stack Platform)
+Frontend repository: https://github.com/Iftekhar-Tasnim/Event-Ticketing-SaaS-Frontend
+Backend repository: https://github.com/Iftekhar-Tasnim/Event-Ticketing-SaaS-Backend
+Description:
+- Comprehensive full-stack event ticketing platform with separate frontend and backend.
+- Provides user authentication, event management, and secure ticket booking.
+- Built with a modern, scalable architecture suitable for production workloads.
+Technologies: Next.js, TypeScript, NestJS, PostgreSQL, Prisma, Tailwind CSS.
+
+Astronyvia (Interactive Web Application)
+Live site: https://astronyvia-front.vercel.app
+Code: https://github.com/Iftekhar-Tasnim/astronyvia
+Description:
+- Interactive web application for astronomy enthusiasts.
+- Features dynamic content and responsive design to explore astronomy-related topics.
+- Focuses on clean, user-friendly UI and engaging content presentation.
+Technologies: React, TypeScript, CSS, Vite.
+
+Vehicle Rental API (RESTful API)
+Code: https://github.com/Iftekhar-Tasnim/VehicleRentalAPI-Dot-Net-Project-
+Description:
+- RESTful API for a vehicle rental system.
+- Handles vehicle inventory, booking management, and customer data.
+- Implements efficient data models and business logic for rental operations.
+- Designed to handle multiple concurrent requests with scalable architecture.
+Technologies: C#, .NET Core, SQL Server, Entity Framework.
+
+Job Portal (Full-Stack Web Application)
+Code: https://github.com/Iftekhar-Tasnim/Job_Portal_webtech_project
+Description:
+- Full-stack job portal application connecting job seekers with employers.
+- Includes job listings, application management, and user profile features.
+- Uses a responsive interface that works across desktop and mobile devices.
+Technologies: PHP, MySQL, HTML, CSS, JavaScript.
+
+Bone CBAM Transformer (Deep Learning / Computer Vision)
+Code: https://github.com/Iftekhar-Tasnim/Bone_CBAM_-Transformer_Neck_integration
+Description:
+- Deep learning project implementing CBAM (Convolutional Block Attention Module) with a Transformer Neck for bone image analysis.
+- Develops an advanced computer vision model for medical image processing and bone structure analysis.
+- Targets improved accuracy in detection and analysis of bone structures.
+Technologies: Python, PyTorch, Jupyter Notebook, computer vision.
+
+IoT Project Dashboard (IoT Monitoring Application)
+Code: https://github.com/Iftekhar-Tasnim/IOT_Project_dashBoard
+Description:
+- IoT dashboard application for monitoring and managing IoT devices.
+- Provides data display and device-related information in a dashboard-style interface.
+- Designed to support real-time or near-real-time data visualization and future expansion.
+Technologies: HTML, JavaScript, CSS, IoT concepts.
+
+Happy Paws GLUT (Desktop Graphics Application)
+Code: https://github.com/Iftekhar-Tasnim/Happy-Paws-Glut-Project-
+Description:
+- Desktop application project built with C++ and GLUT (OpenGL Utility Toolkit).
+- Demonstrates graphics programming, rendering, and GUI-style interactions.
+- Showcases understanding of event-driven desktop applications and 2D/3D rendering basics.
+Technologies: C++, GLUT, OpenGL, graphics programming.
+
+Informal Bot (Discord Bot)
+Code: https://github.com/Iftekhar-Tasnim/informalBot_Discord
+Description:
+- Custom Discord bot for server automation and community engagement.
+- Provides commands for utility and entertainment to help moderate or enhance server activity.
+- Integrates with Discord APIs and event system.
+Technologies: JavaScript, Discord.js, Node.js.
+
+--------------------------------------------------
+PORTFOLIO WEBSITE CONTENT (TEXT ONLY)
+--------------------------------------------------
+Hero section text:
+- Greeting: “Hi, my name is”
+- Name: Iftekhar Tasnim Md. Asif
+- Role: Software Engineer and Web Developer
+- Short bio: A Software Engineer crafting scalable, user-focused web applications with modern technologies. Passionate about building solutions that make an impact.
+- Call to action: “Check out my work!” (links to projects section)
+- Additional call to action: “Get Resume” (opens resume preview or download)
+
+About section text:
+- “I’m a Software Engineer passionate about building scalable, user-centric web applications.”
+- “I specialize in the MERN stack (MongoDB, Express.js, React, Node.js), blending efficient backend logic with modern frontend design to create seamless digital experiences.”
+- “Currently completing my B.Sc. in Computer Science and Engineering (Jan 2025) with a focus on Software Engineering and Machine Learning.”
+- “I am actively seeking internship opportunities where I can contribute to innovative teams and solve real-world problems.”
+
+Education section text:
+- B.Sc. in Computer Science and Engineering – American International University Bangladesh (AIUB) – 2022 to Jan 2025.
+- Higher Secondary Certificate – Adamjee Cantonment College – 2015 to 2017.
+
+Skills section text (human-friendly labels):
+- Programming Languages: C++, Java, Python, C#, JavaScript (ES6+), TypeScript.
+- Frontend Engineering: React, Next.js, Vite, Tailwind CSS, Bootstrap, Material UI, shadcn/ui, HTML5, CSS3.
+- Backend and System Architecture: Node.js, Express.js, NestJS, ASP.NET Core, MVC architecture, Firebase, MongoDB, MySQL, PostgreSQL.
+- Mobile and Desktop Development: React Native (Expo – fundamentals), Java Swing (JFrame).
+- AI, Computer Vision and Data: YOLO (v8 / v10), U-Net, TensorFlow, OpenCV, Pandas, NumPy.
+- IoT and Embedded Systems: Arduino, ESP32, Raspberry Pi, sensors and actuators, circuit design, I2C / SPI / UART.
+- DevOps and Developer Tools: Git, Docker, Linux, Postman, Figma.
+
+Experience section text (website wording):
+- Section title: “Where I’ve Worked”.
+- Frequency Lab: STEM Facilitator, 2024 – Present, Dhaka, Bangladesh.
+  Description: Delivering engaging STEM education and fostering innovation through hands-on projects and mentorship. Teaching programming, robotics, and technology concepts to students. Technologies mentioned: STEM Education, Robotics, Mentorship, Child Education.
+- The Tech Lab: STEM Facilitator, 2023 – 2024, Dhaka, Bangladesh.
+  Description: Facilitated hands-on learning by teaching programming, robotics, and game development to students, fostering foundational STEM skills. Technologies mentioned: Programming, Robotics, Game Development.
+
+Projects section text (website wording):
+- Section title: “Some Things I’ve Built”.
+- Projects listed with titles, descriptions, technologies, and links, matching the project descriptions above.
+
+Personal life section text:
+- Section title: “Personal Life”.
+- Philosophy:
+  Title: “My Philosophy”.
+  Description: “I believe that great code is fueled by great coffee. I’m always seeking new challenges and opportunities to learn and grow.”
+  Quote: “Life is too short for bad coffee.”
+- When I’m not coding:
+  Hobbies:
+  - Cycling: Exploring the city on two wheels.
+  - Football: Teamwork and strategy on the field.
+  - Competitive Gaming: Sharpening reflexes and tactical thinking.
+  - Watching Anime: Appreciating storytelling and art.
+
+Contact section text:
+- Section title: “Get In Touch”.
+- Message: “I’m currently looking for new opportunities, and my inbox is always open. Whether you have a question, a project idea, or just want to say hi, I’ll try my best to get back to you!”
+- Contact details:
+  - Email: iftekhartasnim@gmail.com
+  - Phone: +88 01521 104415
+  - Location: Dhaka, Bangladesh
+- Social links used in the contact area:
+  - GitHub: https://github.com/Iftekhar-Tasnim
+  - LinkedIn: https://www.linkedin.com/in/iftekhartasnim/
+  - X (Twitter): https://x.com/TasnimIftekhar
+  - Facebook: https://www.facebook.com/asif.spdf
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+This file intentionally contains only plain text and simple separators.
+There is no code syntax, no JSON objects, and no LaTeX commands.
+All information has been extracted from the portfolio project and existing CV sources and rewritten as raw human-readable text suitable for reuse in resumes, forms, or other documents.
+
+
