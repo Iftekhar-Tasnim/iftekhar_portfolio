@@ -9,7 +9,7 @@ export const profile = {
     github: "https://github.com/Iftekhar-Tasnim",
     x: "https://x.com/TasnimIftekhar",
     facebook: "https://www.facebook.com/asif.spdf",
-    phone: "+88 01521 104415",
+    phone: "+880 1676-228156",
     location: "Dhaka, Bangladesh",
     education: [
         {
