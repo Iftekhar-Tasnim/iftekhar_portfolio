@@ -10,16 +10,16 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Astronyvia",
-        description: "An interactive web application for astronomy enthusiasts. Features dynamic content and a responsive design to explore the cosmos.",
-        technologies: ["React", "TypeScript", "CSS", "Vite"],
-        link: "https://astronyvia-front.vercel.app",
-        github: "https://github.com/Iftekhar-Tasnim/astronyvia"
+        title: "Frequency Lab Website",
+        description: "A modern, professional website for Frequency Lab - an educational technology organization. Features responsive design, dynamic content management, and optimized performance for educational services showcase.",
+        technologies: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3", "Bootstrap"],
+        link: "https://flabbd.com",
+        github: "https://github.com/Iftekhar-Tasnim/Frequnecy_lab_php_update"
     },
     {
         id: 3,
         title: "Vehicle Rental API",
-        description: "A robust RESTful API for a vehicle rental system. Handles vehicle inventory, booking management, and customer data.",
+        description: "A robust RESTful API for a vehicle rental system. Handles vehicle inventory, booking management, and customer data with optimized database relationships and efficient query handling.",
         technologies: ["C#", ".NET Core", "SQL Server", "Entity Framework"],
         link: "https://github.com/Iftekhar-Tasnim/VehicleRentalAPI-Dot-Net-Project-",
         github: "https://github.com/Iftekhar-Tasnim/VehicleRentalAPI-Dot-Net-Project-"
@@ -27,41 +27,42 @@ export const projects = [
     {
         id: 4,
         title: "Job Portal",
-        description: "A full-stack job portal application for connecting job seekers with employers. Features job listings, application management, and user profiles.",
-        technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+        description: "A full-stack job portal application for connecting job seekers with employers. Features job listings, application tracking, user profile management, and responsive design with optimized database queries.",
+        technologies: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3"],
         link: "https://github.com/Iftekhar-Tasnim/Job_Portal_webtech_project",
         github: "https://github.com/Iftekhar-Tasnim/Job_Portal_webtech_project"
     },
     {
         id: 5,
         title: "Bone CBAM Transformer",
-        description: "A deep learning project implementing CBAM (Convolutional Block Attention Module) with Transformer Neck for bone image analysis. Demonstrates advanced computer vision and neural network architecture.",
-        technologies: ["Python", "PyTorch", "Jupyter Notebook", "Computer Vision"],
+        description: "A deep learning project implementing CBAM (Convolutional Block Attention Module) with Transformer Neck for bone image analysis. Demonstrates advanced computer vision techniques and neural network architecture design.",
+        technologies: ["Python", "TensorFlow", "OpenCV", "Jupyter Notebook", "Computer Vision"],
         link: "https://github.com/Iftekhar-Tasnim/Bone_CBAM_-Transformer_Neck_integration",
         github: "https://github.com/Iftekhar-Tasnim/Bone_CBAM_-Transformer_Neck_integration"
     },
     {
         id: 6,
         title: "IoT Project Dashboard",
-        description: "An IoT dashboard application for monitoring and managing IoT devices. Features real-time data visualization and device control capabilities.",
-        technologies: ["HTML", "JavaScript", "CSS", "IoT"],
+        description: "An IoT dashboard application for monitoring and managing IoT devices in real-time. Features live data visualization, device control capabilities, and responsive interface for seamless monitoring.",
+        technologies: ["JavaScript", "HTML5", "CSS3", "IoT", "Real-time Data"],
         link: "https://github.com/Iftekhar-Tasnim/IOT_Project_dashBoard",
         github: "https://github.com/Iftekhar-Tasnim/IOT_Project_dashBoard"
     },
     {
         id: 7,
-        title: "Happy Paws GLUT",
-        description: "A desktop application project built with C++ and GLUT (OpenGL Utility Toolkit). Demonstrates graphics programming and desktop application development skills.",
-        technologies: ["C++", "GLUT", "OpenGL", "Graphics Programming"],
-        link: "https://github.com/Iftekhar-Tasnim/Happy-Paws-Glut-Project-",
-        github: "https://github.com/Iftekhar-Tasnim/Happy-Paws-Glut-Project-"
+        title: "Photography Portfolio",
+        description: "A visually stunning photography portfolio website showcasing professional photography work. Features responsive gallery, image optimization, and modern design principles for visual storytelling.",
+        technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+        link: "https://github.com/Iftekhar-Tasnim/Photography-Portfolio",
+        github: "https://github.com/Iftekhar-Tasnim/Photography-Portfolio"
     },
     {
         id: 8,
-        title: "Informal Bot",
-        description: "A custom Discord bot designed for server automation and community engagement. Features various commands for utility and fun.",
-        technologies: ["JavaScript", "Discord.js", "Node.js"],
-        link: "https://github.com/Iftekhar-Tasnim/informalBot_Discord",
-        github: "https://github.com/Iftekhar-Tasnim/informalBot_Discord"
+        title: "Happy Paws",
+        description: "A graphics programming project built with C++ and OpenGL (GLUT). Features interactive 3D animations and demonstrates low-level programming expertise with computer graphics fundamentals.",
+        technologies: ["C++", "OpenGL", "GLUT", "Graphics Programming"],
+        link: "https://github.com/Iftekhar-Tasnim/Happy-Paws-Glut-Project-",
+        github: "https://github.com/Iftekhar-Tasnim/Happy-Paws-Glut-Project-"
     }
 ];
+
