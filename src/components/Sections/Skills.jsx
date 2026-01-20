@@ -1,86 +1,12 @@
 import React from 'react';
+import { profile } from '../../data/profile';
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      name: 'Programming Languages',
-      skills: [
-        'C++',
-        'Java',
-        'Python',
-        'C#',
-        'JavaScript (ES6+)',
-        'TypeScript'
-      ]
-    },
-    {
-      name: 'Frontend Engineering',
-      skills: [
-        'React',
-        'Next.js',
-        'Vite',
-        'Tailwind CSS',
-        'Bootstrap',
-        'Material UI',
-        'shadcn/ui',
-        'HTML5',
-        'CSS3'
-      ]
-    },
-    {
-      name: 'Backend & System Architecture',
-      skills: [
-        'Node.js',
-        'Express.js',
-        'NestJS',
-        'ASP.NET Core',
-        'MVC Architecture',
-        'Firebase',
-        'MongoDB',
-        'MySQL',
-        'PostgreSQL'
-      ]
-    },
-    {
-      name: 'Mobile & Desktop Development',
-      skills: [
-        'React Native (Expo – fundamentals)',
-        'Java Swing (JFrame)'
-      ]
-    },
-    {
-      name: 'AI, Computer Vision & Data',
-      skills: [
-        'YOLO (v8 / v10)',
-        'U-Net',
-        'TensorFlow',
-        'OpenCV',
-        'Pandas',
-        'NumPy'
-      ]
-    },
-    {
-      name: 'IoT & Embedded Systems',
-      skills: [
-        'Arduino',
-        'ESP32',
-        'Raspberry Pi',
-        'Sensors & Actuators',
-        'Circuit Design',
-        'I2C / SPI / UART'
-      ]
-    },
-    {
-      name: 'DevOps & Developer Tools',
-      skills: [
-        'Git',
-        'Docker',
-        'Linux',
-        'Postman',
-        'Figma'
-      ]
-    }
-  ];
+  // Transform profile.skills data to match the component's expected format
+  const skillCategories = profile.skills.map(category => ({
+    name: category.name,
+    skills: category.skills.map(skill => skill.name)
+  }));
 
   return (
     <section id="skills" className="py-24 px-6 md:px-20 max-w-[1200px] mx-auto">

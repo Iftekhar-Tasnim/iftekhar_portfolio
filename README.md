@@ -7,7 +7,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 - **Responsive Design** - Fully responsive layout that works on all devices
 - **Smooth Animations** - Smooth transitions and hover effects throughout
 - **Modern UI/UX** - Clean, professional design with dark theme
-- **Contact Form** - Integrated contact form with EmailJS and reCAPTCHA
+- **Contact Form** - Integrated contact form with Netlify Forms
 - **Project Showcase** - Display of best projects with Frontend/Backend badges
 - **Skills Section** - Organized technical skills by category
 - **Experience Timeline** - Professional experience with company links
@@ -24,8 +24,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 - **React Router DOM** - Routing (if needed)
 
 ### Services
-- **EmailJS** - Contact form email service
-- **Google reCAPTCHA v3** - Spam protection
+- **Netlify Forms** - Built-in contact form handling with spam protection
 
 ## 📦 Installation
 
@@ -40,15 +39,7 @@ cd iftekhar_portfolio
 npm install
 ```
 
-3. Create a `.env` file in the root directory:
-```env
-VITE_EMAILJS_SERVICE_ID=your_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_public_key
-VITE_RECAPTCHA_SITE_KEY=your_recaptcha_site_key
-```
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 ```
@@ -90,11 +81,8 @@ src/
 
 ## 🔧 Configuration
 
-### EmailJS Setup
-See `CONTACT_SETUP.md` for detailed EmailJS configuration instructions.
-
-### reCAPTCHA Setup
-See `RECAPTCHA_SETUP.md` for reCAPTCHA v3 setup instructions.
+### Netlify Forms Setup
+See `NETLIFY_FORMS_SETUP.md` for detailed Netlify Forms configuration instructions.
 
 ### Skills Configuration
 Skills are defined in `src/data/profile.js` and displayed in the Skills section. See `cv_skill.txt` for portfolio vs CV skill formatting guidelines.

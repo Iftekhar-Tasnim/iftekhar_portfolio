@@ -1,17 +1,12 @@
-
 import React, { useState } from 'react';
-import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
-import emailjs from '@emailjs/browser';
 import { profile } from '../../data/profile';
 
 const Contact = () => {
-  const { executeRecaptcha } = useGoogleReCaptcha();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
-  const [isLoading, setIsLoading] = useState(false);
   const [status, setStatus] = useState({ type: '', message: '' });
 
   const handleChange = (e) => {
@@ -20,61 +15,33 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true);
     setStatus({ type: '', message: '' });
 
-    // Verify reCAPTCHA
-    if (!executeRecaptcha) {
-      setStatus({ 
-        type: 'error', 
-        message: 'reCAPTCHA not loaded. Please refresh the page and try again.' 
-      });
-      setIsLoading(false);
-      return;
-    }
-
-    let recaptchaToken = '';
     try {
-      recaptchaToken = await executeRecaptcha('contact_form');
-    } catch (error) {
-      console.error('reCAPTCHA error:', error);
-      setStatus({ 
-        type: 'error', 
-        message: 'reCAPTCHA verification failed. Please try again.' 
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          ...formData
+        }).toString()
       });
-      setIsLoading(false);
-      return;
-    }
 
-    // EmailJS configuration
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID';
-    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY';
-
-    const templateParams = {
-      from_name: formData.name,
-      from_email: formData.email,
-      message: formData.message,
-      to_email: profile.email,
-      reply_to: formData.email,
-      'g-recaptcha-response': recaptchaToken
-    };
-
-    try {
-      await emailjs.send(serviceId, templateId, templateParams, publicKey);
-      setStatus({ 
-        type: 'success', 
-        message: 'Message sent successfully! I\'ll get back to you soon.' 
-      });
-      setFormData({ name: '', email: '', message: '' });
+      if (response.ok) {
+        setStatus({ 
+          type: 'success', 
+          message: 'Message sent successfully! I\'ll get back to you soon.' 
+        });
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        throw new Error('Form submission failed');
+      }
     } catch (error) {
-      console.error('EmailJS error:', error);
+      console.error('Form submission error:', error);
       setStatus({ 
         type: 'error', 
         message: 'Failed to send message. Please try again or contact me directly at ' + profile.email 
       });
-    } finally {
-      setIsLoading(false);
     }
   };
 
@@ -153,7 +120,22 @@ const Contact = () => {
           </div>
 
           {/* Right Side: Form */}
-          <form onSubmit={handleSubmit} className="space-y-4 bg-bg-dark/50 p-6 rounded-xl border border-white/5">
+          <form 
+            name="contact" 
+            method="POST" 
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            onSubmit={handleSubmit} 
+            className="space-y-4 bg-bg-dark/50 p-6 rounded-xl border border-white/5"
+          >
+            {/* Hidden fields for Netlify */}
+            <input type="hidden" name="form-name" value="contact" />
+            <p className="hidden">
+              <label>
+                Don't fill this out if you're human: <input name="bot-field" />
+              </label>
+            </p>
+
             <div>
               <label htmlFor="name" className="block text-sm font-mono text-text-muted mb-2">Name</label>
               <input 
@@ -204,20 +186,9 @@ const Contact = () => {
             )}
             <button 
               type="submit" 
-              disabled={isLoading}
-              className="w-full py-4 bg-accent/10 border border-accent text-accent font-mono rounded hover:bg-accent hover:text-bg-dark transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              className="w-full py-4 bg-accent/10 border border-accent text-accent font-mono rounded hover:bg-accent hover:text-bg-dark transition-all duration-300 flex items-center justify-center gap-2"
             >
-              {isLoading ? (
-                <>
-                  <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
-                  Sending...
-                </>
-              ) : (
-                'Send Message'
-              )}
+              Send Message
             </button>
           </form>
 
