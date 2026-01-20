@@ -10,6 +10,7 @@ export const profile = {
     x: "https://x.com/TasnimIftekhar",
     facebook: "https://www.facebook.com/asif.spdf",
     phone: "+880 1676-228156",
+    phone2: "+88 01521 104415",
     location: "Dhaka, Bangladesh",
     education: [
         {

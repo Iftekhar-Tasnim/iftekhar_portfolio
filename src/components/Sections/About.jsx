@@ -29,7 +29,7 @@ const About = () => {
           <div className="relative rounded overflow-hidden bg-accent">
             <img 
               src={profile.img} 
-              alt="Profile" 
+              alt="Iftekhar Tasnim - Software Engineer and Web Developer" 
               className="w-full h-full object-cover mix-blend-multiply grayscale hover:mix-blend-normal hover:grayscale-0 transition-all duration-300" 
             />
           </div>
