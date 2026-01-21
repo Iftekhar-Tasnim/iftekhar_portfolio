@@ -31,10 +31,10 @@ Software Engineering student with a focused interest in building scalable applic
 JavaScript, TypeScript, Python, C++, Java, C#
 
 **Frontend:**  
-React, Next.js, Vite, Tailwind CSS, Bootstrap, Material UI, shadcn/ui
+React, Next.js, Vite, Tailwind CSS, Bootstrap
 
 **Backend:**  
-Node.js, Express.js, NestJS, ASP.NET Core, Firebase
+Express.js, NestJS, ASP.NET Core, Firebase
 
 **Databases:**  
 MongoDB, PostgreSQL, MySQL, SQL Server
