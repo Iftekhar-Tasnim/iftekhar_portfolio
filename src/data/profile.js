@@ -40,15 +40,13 @@ export const profile = {
         },
         {
             name: "Frontend Engineering",
-            total_skills: 10,
-            advanced_expert: 8,
+            total_skills: 8,
+            advanced_expert: 7,
             skills: [
                 { name: "React", level: "Expert" },
                 { name: "Next.js", level: "Advanced" },
                 { name: "Tailwind CSS", level: "Expert" },
                 { name: "Bootstrap", level: "Expert" },
-                { name: "Material UI", level: "Intermediate" },
-                { name: "Shadcn UI", level: "Intermediate" },
                 { name: "SASS", level: "Advanced" },
                 { name: "Vite", level: "Advanced" },
                 { name: "HTML", level: "Expert" },
@@ -57,10 +55,9 @@ export const profile = {
         },
         {
             name: "Backend & Architecture",
-            total_skills: 9,
-            advanced_expert: 5,
+            total_skills: 8,
+            advanced_expert: 4,
             skills: [
-                { name: "Node.js", level: "Advanced" },
                 { name: "Express.js", level: "Advanced" },
                 { name: "ASP.NET Core", level: "Intermediate" },
                 { name: "MVC Frameworks", level: "Intermediate" },
@@ -122,8 +119,8 @@ export const profile = {
     img: asifImg,
     summary: {
         total_categories: 7,
-        total_skills: 44,
-        advanced_expert: 31,
+        total_skills: 41,
+        advanced_expert: 28,
         intermediate: 13
     },
     philosophy: {
